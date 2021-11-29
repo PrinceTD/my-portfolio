@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import myProfile from "../../img/Prince.png"
+import myProfile from "../../img/Prince1.png"
 import ModalItem from '../Modal/ModalItem';
 import "./Slidbar.css"
 
