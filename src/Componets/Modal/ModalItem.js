@@ -28,7 +28,7 @@ const ModalItem = ({ open, handleClose }) => {
         console.log(res);
       }).catch(err => console.log(err));
 
-    alert("submiting succesfullyu")
+    alert("submit succesfully")
     handleClose();
     e.preventDefault();
 
@@ -52,6 +52,7 @@ const ModalItem = ({ open, handleClose }) => {
             id="standard-basic"
             label="Your Name"
             name='name'
+            required
             variant="standard" />
 
           <TextField
@@ -59,14 +60,18 @@ const ModalItem = ({ open, handleClose }) => {
             id="standard-basic"
             label="Your Email"
             name="user-email"
-            variant="standard" />
+            type="email"
+            variant="standard"
+            required
+             />
 
           <TextField
             sx={{ width: '100%', marginTop: "5px" }}
             id="standard-basic"
             name="massage"
             label="Your Massage"
-            variant="standard" />
+            variant="standard" 
+            required/>
 
           <Button
             sx={{ marginTop: "5px" }}
