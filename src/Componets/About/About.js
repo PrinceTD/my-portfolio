@@ -1,5 +1,6 @@
 import React from 'react';
 import "./About.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const About = () => {
@@ -12,6 +13,7 @@ const About = () => {
                         <h5 style={{color: "green"}}><strong>Hello! I’m Prince Talukder.</strong></h5>
                         <p>Web Developar from Bangladesh. developer. I completed a course on web development. I want to be a dedicated web developer. So if I get chance to work then I will surly do the job with full of my concentration and dedication.</p>
                     </div>
+                   
                     <div className="col-md-5">
                         <h5 style={{color: "green"}}> <strong>Personal Information</strong></h5>
                         <p>
@@ -25,6 +27,7 @@ const About = () => {
 
                     </div>
                 </div>
+                <hr />
                 <div className=''>
                     <h4 style={{color: "green"}}> <strong>Skils</strong></h4>
                    <div className="row">

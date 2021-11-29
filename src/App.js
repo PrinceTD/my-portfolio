@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './Componets/Page/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,

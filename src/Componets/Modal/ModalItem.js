@@ -71,7 +71,7 @@ const ModalItem = ({ open, handleClose }) => {
           <Button
             sx={{ marginTop: "5px" }}
             type="submit"
-            variant="contained">Contained</Button>
+            variant="contained">Submit</Button>
         </form>
       </Box>
     </Modal>
