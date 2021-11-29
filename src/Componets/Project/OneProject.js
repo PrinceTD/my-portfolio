@@ -1,21 +1,22 @@
-import Button from '@mui/material/Button';
+
 import React from 'react';
+import "./Projects.css"
 import { Link } from 'react-router-dom';
 
 const OneProject = (props) => {
     const { name, imgProfile } = props.service
     return (
 
-        <div class="col">
-            <div class="card">
-                <img src={imgProfile} alt="" width="100%" />
-                <div class="card-body">
-                    <p class="card-title">{name}</p>
-                    <Link>
-                    <Button variant="outlined" size="small">
-         Details
-        </Button>
-                    </Link>
+        <div className="col">
+            <div className="card border-0 text-center">
+                <img className='img-border' src={imgProfile} alt="" width="100%" />
+                <div className="card-body">
+                    <p className="card-title"><strong>{name}</strong>.
+                        <Link>
+                            <span style={{ color: "green" }}><i className="fas fa-arrow-circle-right"></i></span>
+                        </Link></p>
+
+
                 </div>
             </div>
         </div>
