@@ -11,6 +11,7 @@ import NavBar from './Componets/NavBar/NavBar';
 import About from './Componets/About/About';
 import Resume from './Componets/Resume/Resume';
 import Project from './Componets/Project/Project';
+import Blog from './Componets/Blog/Blog';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
                 </Route>
                 <Route exact path='/project'>
                  <Project></Project>
+                </Route>
+                <Route exact path='/blog'>
+                 <Blog></Blog>
                 </Route>
                 <Route exact path='/resume'>
                  <Resume></Resume>

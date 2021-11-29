@@ -51,6 +51,7 @@ const ModalItem = ({ open, handleClose }) => {
             sx={{ width: '100%', marginTop: "5px" }}
             id="standard-basic"
             label="Your Name"
+            
             name='name'
             required
             variant="standard" />

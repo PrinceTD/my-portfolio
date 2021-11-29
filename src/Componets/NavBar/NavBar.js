@@ -11,6 +11,8 @@ const NavBar = () => {
             setActive("About")
         else if (currentURL.endsWith('/project'))
             setActive("Project")
+        else if (currentURL.endsWith('/blog'))
+            setActive("Blog")
         else if (currentURL.endsWith('/resume'))
             setActive("Resume")
     }, [active])
@@ -33,12 +35,18 @@ const NavBar = () => {
                         <div className="navbar_item" onClick={() => setActive("Resume")}>Resume</div>
                     </Link>
                     : null}
+               
 
                 {active !== 'Project' &&
                     <Link to='/project'>
                         <div className="navbar_item" onClick={() => setActive("Project")}>Project</div>
                     </Link>
                 }
+                 {active !== "Blog" &&
+                    <Link to='/blog'>
+                        <div className="navbar_item" onClick={() => setActive("Blog")}>Blog</div>
+                    </Link>
+                  }
 
             </div>
         </div>
