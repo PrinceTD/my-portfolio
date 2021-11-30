@@ -4,7 +4,7 @@ import "./Projects.css"
 import { Link } from 'react-router-dom';
 
 const OneProject = (props) => {
-    const { name, imgProfile } = props.service
+    const { _id, name, imgProfile } = props.service
     return (
 
         <div className="col">
@@ -12,7 +12,7 @@ const OneProject = (props) => {
                 <img className='img-border' src={imgProfile} alt="" width="100%" />
                 <div className="card-body">
                     <p className="card-title"><strong>{name}</strong>.
-                        <Link>
+                        <Link to={`/project/:${_id}`}>
                             <span style={{ color: "green" }}><i className="fas fa-arrow-circle-right"></i></span>
                         </Link></p>
 

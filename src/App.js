@@ -12,6 +12,8 @@ import About from './Componets/About/About';
 import Resume from './Componets/Resume/Resume';
 import Project from './Componets/Project/Project';
 import Blog from './Componets/Blog/Blog';
+import SingleService from './Componets/Project/SingleService/SingleService';
+
 
 function App() {
   return (
@@ -27,29 +29,34 @@ function App() {
               </div>
             </div>
             <div className="col-lg-8 col-md-9 color-main">
-             <div>
+              <div>
                 <NavBar />
-              <Switch>
-                <Route exact path='/'>
-                  <About></About>
-                </Route>
-                <Route exact path='/About'>
-                  <About></About>
-                </Route>
-                <Route exact path='/project'>
-                 <Project></Project>
-                </Route>
-                <Route exact path='/blog'>
-                 <Blog></Blog>
-                </Route>
-                <Route exact path='/resume'>
-                 <Resume></Resume>
-                </Route>
-                <Route >
-                <Redirect to='/'></Redirect>
-                </Route>
-              </Switch>
-             </div>
+                <Switch>
+                  <Route exact path='/'>
+                    <About></About>
+                  </Route>
+                  <Route path='/About'>
+                    <About></About>
+                  </Route>
+                  <Route path='/project/:serviceId'>
+                    <SingleService></SingleService>
+                  </Route>
+                  <Route path='/project'>
+                    <Project></Project>
+                  </Route>
+
+                  <Route path='/blog'>
+                    <Blog></Blog>
+                  </Route>
+                  <Route path='/resume'>
+                    <Resume></Resume>
+                  </Route>
+
+                  <Route >
+                    <Redirect to='/'></Redirect>
+                  </Route>
+                </Switch>
+              </div>
             </div>
           </div>
 
