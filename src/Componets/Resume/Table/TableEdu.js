@@ -7,8 +7,8 @@ const TableEdu = () => {
   <thead>
     <tr>
       <th scope="col">Degree</th>
-      <th scope="col">Board/University</th>
-      <th scope="col">Group/Subject</th>
+      <th scope="col">Board</th>
+      <th scope="col">Group</th>
       <th scope="col">Year</th>
       <th scope="col">Result</th>
     </tr>

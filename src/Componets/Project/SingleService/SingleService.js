@@ -12,11 +12,12 @@ const SingleService = () => {
             .then(data => setService(data));
 
     }, []);
+    
     return (
         <div className='cotainer'>
             <div >
                 {serviceId}
-                <h2>{service.name}</h2>
+               
 
             </div>
 

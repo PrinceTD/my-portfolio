@@ -18,7 +18,9 @@ const NavBar = () => {
     }, [active])
 
     return (
-        <div className="navbar">
+        <div className="navbar"
+           
+        >
             <div className="nabvar_active">
                 {active}
             </div>
@@ -35,18 +37,18 @@ const NavBar = () => {
                         <div className="navbar_item" onClick={() => setActive("Resume")}>Resume</div>
                     </Link>
                     : null}
-               
+
 
                 {active !== 'Project' &&
                     <Link to='/project'>
                         <div className="navbar_item" onClick={() => setActive("Project")}>Project</div>
                     </Link>
                 }
-                 {active !== "Blog" &&
+                {active !== "Blog" &&
                     <Link to='/blog'>
                         <div className="navbar_item" onClick={() => setActive("Blog")}>Blog</div>
                     </Link>
-                  }
+                }
 
             </div>
         </div>
