@@ -33,10 +33,10 @@ const SingleService = () => {
 
                     </div>
                     <div className='col-md-4'>
-                        <span> <img src={service.imgProfile} class="d-block" style={{ width: "100%" }}></img></span>
+                        <span> <img src={service.imgBackGround1} class="d-block" style={{ width: "100%" }}></img></span>
                     </div>
                     <div className='col-md-4'>
-                        <span> <img src={service.imgProfile} class="d-block " style={{ width: "100%" }}></img></span>
+                        <span> <img src={service.imgBackGround2} class="d-block " style={{ width: "100%" }}></img></span>
                     </div>
                     <a style={{ textDecoration: "none", color: "blue" }} href={service.liveLink} target="_blank">
                         <Button style={{marginTop:"5px"}} variant="outlined" size="small">
