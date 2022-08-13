@@ -11,7 +11,7 @@ const About = () => {
                 <div >
                     <div className="pb-3">
                         <h5 style={{ color: "green" }}><strong>Hello! I’m Prince Talukder.</strong></h5>
-                        <p>Junior Web Developar from Bangladeshs. I completed a course on web development. I want to be a dedicated web developer. So if I get chance to work then I will surly do the job with full of my concentration and dedication.</p>
+                        <p>Junior Web Developer from Bangladesh. I completed a course on web development. I want to be a dedicated web developer. So if I get chance to work then I will surly do the job with full of my concentration and dedication</p>
                     </div>
                     <hr />
                     <div className='row'>
@@ -20,7 +20,7 @@ const About = () => {
                                 <h5 style={{ color: "green" }}> <strong>Personal Information</strong></h5>
                                 <p>
                                     <span><span className='fw-bold'>Name:</span> Prince Talukder</span> <br />
-                                    <span><span className='fw-bold'>Age:</span> 20</span>  <br />
+                                    <span><span className='fw-bold'>Age:</span> 22</span>  <br />
                                     <span><span className='fw-bold'>Residence:</span> Sylhet, Bangladesh</span>  <br />
                                     <span><span className='fw-bold'>Address:</span> 07, Modina Market</span>  <br />
                                     <span><span className='fw-bold'>Phone:</span> 01709247965</span>  <br />
@@ -29,11 +29,6 @@ const About = () => {
 
                             </div>
                         </div>
-                        {/* <div className='col-md-6'>
-                            <div>
-                            <h5 style={{ color: "green" }}> <strong>Contact Me</strong></h5>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
 
